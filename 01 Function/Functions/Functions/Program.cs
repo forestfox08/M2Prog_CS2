@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hi");
+            Program program = new Program();
+            program.Run();
         }
+
+        internal void Run() {
+
+            Console.WriteLine("This is functioning!");
+            Console.WriteLine("");
+            Console.WriteLine("Dit is nu de start van mijn programma.");
+        }
+
     }
 }
