@@ -2,9 +2,8 @@
 {
     internal class RijLeraar
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        internal string naam;
+        internal int leeftijd;
+        internal bool zzp;
     }
 }

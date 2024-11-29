@@ -2,9 +2,7 @@
 {
     internal class Rijtest
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        internal bool gehaald;
+        internal DateTime afnameDatum;
     }
 }

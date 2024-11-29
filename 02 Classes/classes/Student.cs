@@ -2,9 +2,11 @@
 {
     internal class Student
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        internal string naam;
+        internal int leeftijd;
+        internal LesPakket lesPakket;
+        internal RijLeraar leraar;
+        internal TheorieTest theorieTest;
+        internal Rijtest rijTest;
     }
 }

@@ -2,9 +2,8 @@
 {
     internal class TheorieTest
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        internal int aantalFouten;
+        internal bool gehaald;
+        internal DateTime afnameDatum;
     }
 }

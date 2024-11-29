@@ -2,9 +2,7 @@
 {
     internal class Dag
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        internal DateTime datum;
+        internal LesUur[] lesuren;
     }
 }
