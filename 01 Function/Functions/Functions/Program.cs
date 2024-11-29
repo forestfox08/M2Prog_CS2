@@ -2,24 +2,32 @@
 {
     internal class Program
     {
+        string[] vragen = new string[] {
+            "test vraag1",
+            "testvraag2"
+        };
         static void Main(string[] args)
         {
             Program program = new Program();
             program.Run();
         }
-
+        internal string GetVraag(int vraagIndex)
+        {
+            return vragen[vraagIndex];
+        }
         internal void Run()
         {
 
             Console.WriteLine("This is functioning!");
             Console.WriteLine("");
             Console.WriteLine("Dit is nu de start van mijn programma.");
-            vraag1();
-            vraag2();
-            vraag3();
-            vraag4();
-            vraag5();
-            vraag6();
+            //vraag1();
+            //vraag2();
+            //vraag3();
+            //vraag4();
+            //vraag5();
+            //vraag6();
+            //vraag7();
         }
         internal void vraag1()
         {
@@ -117,5 +125,14 @@
 
 
         }
+        internal string vraag7()
+        {
+            Console.WriteLine("hi");
+            string antwoord = vraag7();
+            Console.WriteLine(antwoord); 
+
+            return antwoord;
+        }
+
     }
 }
