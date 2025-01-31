@@ -21,13 +21,13 @@
             Console.WriteLine("This is functioning!");
             Console.WriteLine("");
             Console.WriteLine("Dit is nu de start van mijn programma.");
-            //vraag1();
-            //vraag2();
-            //vraag3();
-            //vraag4();
-            //vraag5();
-            //vraag6();
-            //vraag7();
+            vraag1();
+            vraag2();
+            vraag3();
+            vraag4();
+            vraag5();
+            vraag6();
+            vraag7();
         }
         internal void vraag1()
         {
